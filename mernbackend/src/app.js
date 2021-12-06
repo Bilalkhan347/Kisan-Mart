@@ -14,7 +14,7 @@ app.use(express.static(static_path));
 console.log(path.join(__dirname, "../public"));
 app.get("/", (req, res) => {
     res.render("index")
-    console.warn("Running Haome PAge");
+    console.warn("Running Home Page");
 });
 
 app.get("/index", encorder, (req, res) => {
